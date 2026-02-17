@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestar</title>
+
+    <style>
+
+        .body{
+            background-color: palevioletred;
+        }
+        .title {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            display: block;
+        }
+
+        .title h3 {
+            color: gray;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 30px;
+            text-align: center;
+            gap: 20px;
+            padding-bottom: 40px;
+        }
+
+        .menu-item__1,.menu-item__2,.menu-item__3,.menu-item__4{
+            border:solid black 1px;
+            display: inline-block;
+            text-align: center;
+            background-color: white;
+        }
+
+        .menu-container img{
+            height: 200px;
+            width: 300px;
+        }
+
+        .button{
+            color: white;
+            background-color: black;
+            width: 200px;
+            height: 40px;
+        }
+
+        .contact__container{
+
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: white;
+        }
+        .contact__container button{
+            background-color: greenyellow;
+            color: black;
+            width: 220px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+
+        <div class="title">
+            <h1>Reestar</h1>
+            <h3>Home|Recipe|Contact</h3>
+        </div>
+
+        <div class="menu-container">
+            <div class="menu-item__1">
+                <img src="./images/rs.1.jpg">
+                <p>Royal Chocolate Cake</p>
+                <p>Taste the delicacy</p>
+                <button class="button">Order Now</button>
+            </div>
+            <div class="menu-item__2">
+                <img src="./images/rs.2.jpg">
+                <p>Strawberry fudgy pudding</p>
+                <p>Taste the delicacy</p>
+                <button class="button">Order Now</button>
+            </div>
+            <div class="menu-item__3">
+                <img src="./images/rs.3.jpg">
+                <p>Fruity Cupcake</p>
+                <p>Taste the delicacy</p>
+                <button class="button">Order Now</button>
+            </div>
+            <div class="menu-item__4">
+                <img src="./images/rs.4.jpg">
+                <p>Christmas Cocoa</p>
+                <p>Taste the delicacy</p>
+                <button class="button">Order Now</button>
+            </div>
+        </div>
+        <div class="contact__container">
+            <div class="contact">
+                <h1>Contact Us</h1>
+                <form>
+                    <table>
+                        <tr>
+                            <td>Name:</td>
+                            <td> <input type="text" placeholder="Name"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Age:</td>
+                            <td><input type="text" placeholder="Age"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="text" placeholder="Email"></td>
+                        </tr>
+
+                    </table>
+
+                    <table class="end-button">
+                        <tr>
+                            <td></td>
+                            <td><button class="button">Send</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
